@@ -75,7 +75,6 @@
 		</plugins>
 	</build>
 
-</project>
 <distributionManagement>
  <repositories>
     <repository>
@@ -88,4 +87,5 @@
       </snapshots>
     </repository>	 
   </repositories>
-</distributionManagement>	
+</distributionManagement>
+</project>
