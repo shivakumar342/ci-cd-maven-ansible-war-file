@@ -12,6 +12,14 @@
 		<spring.version>3.2.13.RELEASE</spring.version>
 		<jstl.version>1.2</jstl.version>
 	</properties>
+	
+<distributionManagement>
+	<snapshotRepository>
+           <id>snapshots</id>
+           <url>http://192.168.70.2:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+</distributionManagement>
+ 
 
 	<dependencies>
 
@@ -72,6 +80,8 @@
 				</configuration>
 			</plugin>
 			
+			<plugin>
+				
 		</plugins>
 	</build>
 
