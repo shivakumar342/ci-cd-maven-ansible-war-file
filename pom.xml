@@ -76,16 +76,10 @@
 	</build>
 
 <distributionManagement>
- <repositories>
-    <repository>
-      <id>deployment</id>
-      <name>Internal snapshot releaases</name>
-	    <url>http://192.168.70.2:8081/repository/maven-snapshots/</url>
-      <layout>default</layout>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </repository>	 
-  </repositories>
+ <snapshotRepository>
+        <id>deployment</id>
+        <name>My_Artifactory-snapshots</name>
+        <url>http://192.168.70.2:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
 </distributionManagement>
 </project>
