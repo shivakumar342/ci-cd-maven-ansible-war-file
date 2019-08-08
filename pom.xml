@@ -75,11 +75,5 @@
 		</plugins>
 	</build>
 
-<distributionManagement>
- <snapshotRepository>
-        <id>deployment</id>
-        <name>My_Artifactory-snapshots</name>
-        <url>http://192.168.70.2:8081/repository/maven-snapshots/</url>
-    </snapshotRepository>
-</distributionManagement>
+
 </project>
